@@ -6,7 +6,6 @@ def miles_to_km():
     km = miles * 1.609
     kilometer_result_label.config(text=f"{km}")
 
-
 window = Tk()
 window.title("Miles to Kilometer Converter")
 window.config(padx=20, pady=20)
